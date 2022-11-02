@@ -8,7 +8,7 @@
     "roll-dice": "./bin/cli.js"
   },
   "scripts": {
-    "test": "roll-dice --sides=10 --dice=2 --rolls=3"
+    "test": "node bin/cli.js roll-dice --sides=10 --dice=2 --rolls=3"
   },
   "repository": {
     "type": "git",
