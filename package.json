@@ -4,9 +4,7 @@
   "description": "This assignment will help you learn to create an installable Node.js module package. You'll also provide a command line interface with it.",
   "main": "./lib/roll.js",
   "bin": "\"roll-dice\": \"./bin/cli.js\"",
-  "scripts": {
-    "test": "roll-dice --sides=10 --dice=2 --rolls=3"
-  },
+    "test": "roll-dice --sides=10 --dice=2 --rolls=3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a03-libinhang.git"
