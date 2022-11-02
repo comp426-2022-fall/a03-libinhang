@@ -5,10 +5,10 @@
   "main": "./lib/roll.js",
   "type": "module",
   "bin": {
-    "roll-dice": "./bin/cli.js"
+    "roll-dice": "bin/cli.js"
   },
   "scripts": {
-    "test": "node bin/cli.js roll-dice --sides=10 --dice=2 --rolls=3"
+    "test": "roll-dice --sides=10 --dice=2 --rolls=3"
   },
   "repository": {
     "type": "git",
