@@ -9,3 +9,5 @@ let dice = args.dice && args.dice>0 ? args.dice: 2;
 let rolls = args.rolls && args.rolls>0 ? args.rolls: 1;
 
 console.log(JSON.stringify(roll(sides, dice, rolls)));
+
+process.exit(0);
