@@ -7,6 +7,9 @@
   "bin": {
     "roll-dice": "./bin/cli.js"
   },
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "roll-dice --sides=10 --dice=2 --rolls=3"
   },
